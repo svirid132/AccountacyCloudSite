@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('./form.css');
+@import url('./global.css');
+
+header {
+    display: flex;
+    position: relative;
+    height: 112px;
+    overflow: hidden;
+    align-items: center;
+}
+
+header ul {
+    display: inline-block;
+    position: absolute;
+}
+
+header .menu {
+    font-size: 20px;
+    left: 250px;
+}
+
+header .menu li{
+    margin-left: 20px; 
+}
+
+header .menu a {
+    text-decoration: none;
+    color: black;
+}
+
+header .btns {
+    right: 0;
+}
+
+header .btns li {
+    margin-left: 18px; 
+}
+
+section.container-information:nth-of-type(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section.container-information {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+section.container-information .information {
+    width: 500px;
+}
+
+section.container-information h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section.container-information p {
+    font-size: 20px;
+    line-height: 170%;
+}
+
+section.container-information .container-btn p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section.container-information img {
+    width: calc(1150px - 500px - 100px);
+    object-fit: contain;
+}
+
+section.container-three-stand {
+    padding: 60px 0;
+    font-size: 30px;
+}
+
+section.container-three-stand li img {
+    width: 200px;
+}
+
+section.container-three-stand h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+section.container-three-stand h3 {
+    font-size: 30px;
+}
+
+section.container-three-stand p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+section.container-three-stand ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.container-three-stand li {
+    width: 330px;
+}
+
+section.container-three-stand:nth-of-type(2n) {
+    max-width: 100%;
+    background-color: rgb(219, 173, 173);
+}
+
+section.container-three-stand:nth-of-type(2n) div {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+section.container-companies {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.container-companies h2 {
+    width: 270px;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+section.container-companies li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+section.container-information-hub {
+    display: flex;
+    padding: 80px 0;
+}
+
+section.container-information-hub div {
+    margin-top: 80px;
+    width: 500px;
+}
+
+section.container-information-hub h2 {
+    font-size: 50px;
+}
+
+section.container-information-hub p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+section.container-information-hub img {
+    width: calc(1150px - 500px - 100px);
+}
+
+.container-ready {
+    padding: 70px 0;
+}
+
+.container-ready .container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #8BD4D6;
+    border-radius: 10px;
+    padding: 30px 0; 
+}
+
+.container-ready .container-btn {
+    position: relative;
+}
+
+.container-ready .container-btn button {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container-ready .container-information h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.container-ready .container-information p {
+    font-size: 20px;
+}
+
+footer {
+    max-width: 100vw;
+    background-color: #302E3F;
+    color: white;
+}
+
+footer .container {
+    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+footer .container-logo {
+    display: flex;
+}
+
+footer .container-logo img {
+    margin-right: 20px;
+}
+
+footer .container-information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .container-information ul {
+    width: 180px;
+    margin-right: 50px; 
+}
+
+footer .container-information li {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+footer .container-information li a, footer .copy li a{
+    text-decoration: none;
+    color: #C5E9EA;
+}
+
+footer .copy li {
+    margin-right: 20px;
+}
+
+footer .container-information li:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+
+footer .container-copy {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+footer .container-copy ul {
+    margin-bottom: 0;
+}
